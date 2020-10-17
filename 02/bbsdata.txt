@@ -1,0 +1,4 @@
+Daiki: text/plainを使うと全部preで表示される
+Daiki: bbs.rbでFile.readを使ってファイル読み込みをしてたらひたすらEncoding::CompatibilityErrorが出る
+Daiki: 授業のpdf通りにCGI.escapeHTMLを使ったら解決
+Daiki: text/htmlにしたらいい気がする

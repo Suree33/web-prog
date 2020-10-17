@@ -1,0 +1,48 @@
+pre {
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: var(--content-width);
+    white-space: pre-wrap;
+}
+
+.post-form {
+    margin: 2rem auto;
+}
+
+.post-form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.post-form-wrapper + .post-form-wrapper {
+    margin-top: 1rem;
+}
+
+.post-form-wrapper .post-form-title {
+    flex-basis: 30%;
+    text-align: right;
+    margin: 0.5rem 0;
+    margin-right: 1rem;
+}
+
+.post-form-wrapper .post-form-content {
+    flex-basis: 70%;
+    padding: 0.5rem;
+}
+
+.post-form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.post-form-buttons .btn {
+    width: 50%;
+}
+
+.post-form-buttons .btn + .btn {
+    margin-left: 40px;
+}
+
+.post-form-wrapper ul {
+    list-style-type: none;
+}

@@ -1,0 +1,88 @@
+:root {
+    --content-width: 480px;
+    --color-background: #f8f8f8;
+    --color-main: #3cbbb1;
+    --color-main-darker: #2d8b83;
+    --color-accent: #efa00b;
+    --color-accent-darker: #c38209;
+    --color-caution: #ee4266;
+    --color-caution-darker: #e01541;
+    --color-text: #35393c;
+
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: var(--content-width);
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin: 8px;
+}
+
+.post-form {
+    margin: 2rem auto;
+}
+
+.post-form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.post-form-wrapper + .post-form-wrapper {
+    margin-top: 1rem;
+}
+
+.post-form-wrapper .post-form-title {
+    flex-basis: 30%;
+    text-align: right;
+    margin: 0.5rem 0;
+    margin-right: 1rem;
+}
+
+.post-form-wrapper .post-form-content {
+    flex-basis: 70%;
+    padding: 0.5rem;
+}
+
+.post-form-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.post-form-buttons .btn {
+    width: 50%;
+}
+
+.post-form-buttons .btn + .btn {
+    margin-left: 40px;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0.6rem 1.5rem;
+    color: var(--color-background);
+    background-color: var(--color-main);
+    border-bottom: 5px solid var(--color-main-darker);
+    border-radius: 3px;
+}
+
+.btn.caution {
+    background-color: var(--color-caution);
+    border-bottom: 5px solid var(--color-caution-darker);
+}
+.btn:active {
+    border: none;
+    margin-top: 5px;
+}
+
+pre {
+    font-family: "Noto Sans JP", sans-serif;
+    max-width: var(--content-width);
+    white-space: pre-wrap;
+}
